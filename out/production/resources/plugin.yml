@@ -1,0 +1,4 @@
+name: ipblock
+version: '${version}'
+main: org.papaeske.ipblock.Ipblock
+api-version: '1.20'

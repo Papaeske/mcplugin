@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ipblock:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ipblock_jar</output-path>
+    <root id="archive" name="ipblock.jar">
+      <element id="module-output" name="ipblock.main" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
