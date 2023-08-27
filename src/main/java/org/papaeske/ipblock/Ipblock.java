@@ -62,7 +62,7 @@ public final class Ipblock extends JavaPlugin implements Listener {
     public void onPlayerJoin(PlayerJoinEvent event) {
         if (isAllowedIp(event)) {
             Player player = event.getPlayer();
-            player.sendMessage(Component.text("Velkommen!").color(NamedTextColor.GREEN));
+            player.sendMessage(Component.text("Velkommen til!").color(NamedTextColor.GREEN));
         } else {
             event.getPlayer().kick(Component.text("Du er vist ikke på skolen makker!"));
         }
